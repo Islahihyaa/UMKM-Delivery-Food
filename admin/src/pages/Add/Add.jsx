@@ -15,8 +15,8 @@ const Add = () => {
 
     const [image, setImage] = useState(false);
 
-    const onSubmitHandler = async (e) => {
-        e.preventDefault();
+    const onSubmitHandler = async (event) => {
+        event.preventDefault();
         const formData = new FormData();
         formData.append("name", data.name);
         formData.append("description", data.description);
