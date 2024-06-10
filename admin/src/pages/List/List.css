@@ -13,6 +13,11 @@
 .list-table-format img{
     width: 50px;
 }
+.cursor {
+    cursor: pointer;
+    color: #2f24ff;
+}
+
 @media(max-width:600px){
 
     .list-table-format{
